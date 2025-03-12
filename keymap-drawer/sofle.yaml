@@ -143,8 +143,8 @@ layers:
   - ''
   - Ctl+Y
   - PG DN
-  - UP
   - PG UP
+  - Ctl+P
   - ''
   - BACKSPACE
   - CAPS
@@ -153,9 +153,9 @@ layers:
   - ''
   - Ctl+F
   - ''
-  - ''
   - LEFT
   - DOWN
+  - UP
   - RIGHT
   - ''
   - ''
@@ -167,10 +167,10 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - Ctl+N
   - END
   - HOME
+  - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
