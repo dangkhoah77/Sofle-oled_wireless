@@ -89,11 +89,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                    &kp N6     &kp N7     &kp N8    &kp N9     &kp N0  &kp DELETE
-&trans    &none      &none      &none      &kp LC(R)  &none                     &kp LC(Y)  &kp PG_DN  &kp UP    &kp PG_UP  &none   &kp BACKSPACE
-&kp CAPS  &kp LC(A)  &kp LC(S)  &none      &kp LC(F)  &none                     &none      &kp LEFT   &kp DOWN  &kp RIGHT  &none   &none
-&trans    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none   &trans    &trans  &none      &none      &kp END   &kp HOME   &none   &trans
-                     &trans     &trans     &trans     &to 0   &trans    &trans  &to 3      &trans     &trans    &trans
+&trans    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                    &kp N6     &kp N7     &kp N8     &kp N9     &kp N0  &kp DELETE
+&trans    &none      &none      &none      &kp LC(R)  &none                     &kp LC(Y)  &kp PG_DN  &kp PG_UP  &kp LC(P)  &none   &kp BACKSPACE
+&kp CAPS  &kp LC(A)  &kp LC(S)  &none      &kp LC(F)  &none                     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none   &none
+&trans    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none   &trans    &trans  &kp LC(N)  &kp END    &kp HOME   &none      &none   &trans
+                     &trans     &trans     &trans     &to 0   &trans    &trans  &to 3      &trans     &trans     &trans
             >;
 
             sensor-bindings =
