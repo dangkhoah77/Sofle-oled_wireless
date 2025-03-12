@@ -287,8 +287,8 @@ layers:
   - C
   - V
   - B
-  - MUTE
-  - PSCRN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - N
   - M
   - ','
@@ -298,10 +298,10 @@ layers:
   - LGUI
   - LALT
   - LCTRL
-  - {t: meth..., h: toggle}
+  - {t: default, h: toggle}
   - RET
   - SPACE
-  - {t: nav, h: toggle}
+  - {t: med, h: toggle}
   - RCTRL
   - RALT
   - RGUI
