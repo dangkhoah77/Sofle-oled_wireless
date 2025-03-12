@@ -118,7 +118,7 @@ layers:
   - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: medium, h: toggle}
+  - {t: med, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,7 +147,7 @@ layers:
   - PG UP
   - ''
   - BACKSPACE
-  - {t: ▽, type: trans}
+  - CAPS
   - Ctl+A
   - Ctl+S
   - ''
@@ -179,12 +179,12 @@ layers:
   - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: medium, h: toggle}
+  - {t: med, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  medium:
-  - ''
+  med:
+  - {t: ▽, type: trans}
   - {t: brawl, h: toggle}
   - ''
   - ''
@@ -195,32 +195,32 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - '&msc SCRL_UP'
   - ''
   - ''
   - ''
   - ''
   - ''
+  - '&mmv MOVE_UP'
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
   - ''
   - ''
   - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -233,17 +233,17 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: default, h: toggle}
-  - ''
-  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - {t: adjust, h: toggle}
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   brawl:
   - ESC
   - '1'
