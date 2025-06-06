@@ -55,8 +55,8 @@ layers:
   - LALT
   - LCTRL
   - {t: meth..., h: toggle}
-  - RET
   - SPACE
+  - RETURN
   - {t: nav, h: toggle}
   - RCTRL
   - RALT
@@ -87,8 +87,8 @@ layers:
   - '0'
   - F12
   - '`'
-  - '!'
   - '~'
+  - '!'
   - '?'
   - ^
   - \
